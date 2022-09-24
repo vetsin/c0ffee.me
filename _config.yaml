@@ -1,0 +1,11 @@
+title: c0ffee.me
+url: https://0x.c0ffee.me
+github_username: vetsin
+author:
+    name: vetsin
+    bio: things worth writing down
+    github: vetsin
+
+pagination:
+    enabled: true
+    per_page: 5

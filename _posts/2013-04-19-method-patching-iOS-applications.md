@@ -2,7 +2,7 @@
 layout: post
 title: Method patching on iOS applications
 categories: [security]
-tags: []
+tags: [mobile]
 description: Method patching a function (e.g. a JailBreak check) on a rooted iOS device
 ---
 

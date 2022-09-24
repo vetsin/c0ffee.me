@@ -2,7 +2,7 @@
 layout: post
 title: Compiling iOS Libraries using Theos
 categories: [security]
-tags: [iOS]
+tags: [mobile]
 description: Compiling iOS shared libraries with theos
 ---
 
