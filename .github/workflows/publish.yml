@@ -20,5 +20,5 @@ jobs:
                   username: ${{ secrets.USERNAME }}
                   port: ${{ secrets.PORT }}
                   key: ${{ secrets.SSH_PRIVATE_KEY }}
-                  src: ./build/*
-                  remote: /var/www/c0ffee.me
+                  source: ./build/*
+                  target: /var/www/c0ffee.me
