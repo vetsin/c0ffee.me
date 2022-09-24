@@ -24,4 +24,5 @@ jobs:
                   source: "${{ github.workspace }}/_site/*"
                   target: "/var/www/c0ffee.me"
                   overwrite: true
+                  strip_components: 3
 
