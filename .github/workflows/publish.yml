@@ -1,0 +1,24 @@
+name: Build and deploy Jekyll site to my server
+
+on:
+    push:
+        branches: [ $default-branch ]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: Build the site in the jekyll/builder container
+              run: |
+                  docker run \
+                  -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+                  jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+            - name: Deploy
+              uses: appleboy/scp-action@master
+              with:
+                  host: ${{ secrets.HOST }}
+                  username: ${{ secrets.USERNAME }}
+                  port: ${{ secrets.PORT }}
+                  key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  src: ./build/*
+                  remote: /var/www/c0ffee.me
