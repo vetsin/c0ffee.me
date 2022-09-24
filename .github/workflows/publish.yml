@@ -12,7 +12,8 @@ jobs:
               run: |
                   docker run \
                   -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-                  jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+                  jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future && ls -l /srv/jekyll/_site"
+
             - name: Deploy
               uses: appleboy/scp-action@master
               with:
@@ -20,5 +21,7 @@ jobs:
                   username: ${{ secrets.USERNAME }}
                   port: ${{ secrets.PORT }}
                   key: ${{ secrets.SSH_PRIVATE_KEY }}
-                  source: /srv/jekyll/_site/*
-                  target: /var/www/c0ffee.me
+                  source: "/srv/jekyll/_site/*"
+                  target: "/var/www/c0ffee.me"
+                  overwrite: true
+
