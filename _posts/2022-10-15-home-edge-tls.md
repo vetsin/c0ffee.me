@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Adding TLS to edgeos via acme.sh"
+tags: [devops]
 ---
 
 

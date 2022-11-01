@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Adding a new discord bot"
+tags: [python]
 ---
 
 When writing a discord bot, even if only for your own server, you need to use oauth to validate it. I wrote the following script to make it easy on myself, since i'm more than likely to do it again and forget how in the future. Make sure you have `bottle`, `requests` and `discordpy` (the bot framework i was writing in) runt hen simply browse to http://localhost:8080
