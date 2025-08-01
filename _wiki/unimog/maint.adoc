@@ -1,0 +1,27 @@
+= Unimog
+:page-layout: wiki
+:page-category: unimog
+
+For a 1965 404.114 German Radio Box
+
+== Data
+
+. Personally confirmed data
+* Engine
+** M180.???
+* Brakes
+** Fluid: DOT3+ (yellow)
+* Portal Axles
+** Fluid: gear oil, 80sae, .3L each
+* Transmission
+** Fluid: gear oil, 90sae, 6L
+*** GL4 required, as others may eat brass (which is used for bearings/etc.)
+*** e.g. Redline MT-90
+* Air System
+** Compressor Fluid: engine oil 10sae
+*** A 0W-40 or 10W-40 works
+** Anti-freeze unit Fluid: Ethyl/denatured alcohol
+* Carburetor
+** Model: Zenith 32 NDIX
+*** Carb top screws: M5x0.9 and 18mm
+**** These are non standard pitch, so if you snap them you likely must make your own. Ask me how I know.

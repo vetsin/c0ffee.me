@@ -3,3 +3,15 @@ _site/*
 *Thumbs.db
 Gemfile.lock
 .jekyll-cache/*
+.idea
+.DS_Store
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
