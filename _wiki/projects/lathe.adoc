@@ -21,3 +21,7 @@ image::/assets/media/lathe.jpg[align="center",float="center",width=50%]
 * Lead screw is metric
 ** pretty sure, need to double check
 * Tail stock spindle: MT3
+
+== Change Gears
+
+I was missing some gears, and ended up having to https://www.thingiverse.com/thing:7163704[3D Model my own]. Works surprisngly well, and I have left it in while doing other operations to no ill effect.
