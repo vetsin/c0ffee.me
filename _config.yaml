@@ -3,12 +3,28 @@ url: https://0x.c0ffee.me
 github_username: vetsin
 author:
     name: vetsin
-    bio: things worth writing down
+    bio: ^things (worth )?writ(?(1)ing|ten) down$
     github: vetsin
+markdown: kramdown
+plugins:
+    - jekyll-asciidoc
+    - jekyll-toc
+exclude:
+    - devenv.nix
+    - devenv.yaml
+    - devenv.lock
+    - .devenv/
+    - .idea/
+    - .github/
+    - .direnv/
 
-pagination:
-    enabled: true
-    per_page: 10
-    permalink: '/page/:num/'
-    sort_field: 'date'
-    sort_reverse: true
+#pagination:
+#    enabled: true
+#    per_page: 10
+#    permalink: '/page/:num/'
+#    sort_field: 'date'
+#    sort_reverse: true
+
+collections:
+    wiki:
+        output: true

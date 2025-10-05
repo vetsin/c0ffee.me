@@ -11,6 +11,7 @@ body{
 	background-color: #2c3e50;
     background-image: url("/assets/media/bg.png");
 	color: #fff;
+	max-width: 350px;
 }
 
 .sidebar-header {
@@ -106,6 +107,11 @@ article{
 	text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: 3px;
+}
+
+.post-list-date {
+	font-size: 12px;
+	color: #181818;
 }
 
 article {

@@ -1,0 +1,19 @@
+= CNC Mill
+:page-layout: wiki
+:page-category: projects
+
+I convereted a https://www.precisionmatthews.com/products/pm-30mv[PM-30MV] Variable speed milling machine to a LinuxCNC controlled machine.
+
+* https://github.com/vetsin/linuxcnc-pm30[github repo]
+
+[cols="a,a", frame=none, grid=none, %autowidth]
+|===
+|image::/assets/media/mill.jpg[align="center",float="right",width=50%]
+|image::/assets/media/mill_control.jpg[align="center",float="right",width=65%]
+|===
+
+== Overview
+
+Installed CNC lead screws from https://arizonacnckits.com/pm-30-cnc-kit.html[Arizona CNC], two 4.8Nm steppers on the X & Y, and a 12Nm stepper on the Z. Control is programmed in LinuxCNC talking over ethernet to a https://store.mesanet.com/index.php?route=product/product&product_id=290[Mesa 7i76e] inside a custom control cabinet. It is currently programmed/wired with a MPG, touch probe, and tool offset.
+
+Currently I do not have the spindle control wired into the Mesa board, but it isn't really a problem at the moment.

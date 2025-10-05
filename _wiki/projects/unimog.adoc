@@ -1,0 +1,99 @@
+= Unimog 404 Restoration
+:page-layout: wiki
+:page-category: projects
+
+For a 1965 404.114 German Radio Box. This is how I got it:
+
+image::/assets/media/mog_original.jpg[width=500px,align="center"]
+
+To document some of the problems it has/had:
+
+* Failed brakes
+  * Two crushed lines from tow truck hooks
+  * All four brake cylinders rusted
+  * Master cylinder rusted
+* Several oil leaks
+* Tires dry rotted
+* Fuel tank sensor broken
+* Primary fuel tank non-operable
+* Rear lights non-working
+* Blinkers non-working
+* Radio battery box rusted with holes
+* Exhaust rusted with holes
+* No soft top
+* Almost anything rubber has gone bad
+
+== Work done
+
+* Brakes
+** All new cylinders
+** Replaced ~20' brake lines
+* Radiator flush
+** Replaced several aged fittings
+* Replaced exhaust
+** Opted not to re-install battery box warmer
+* All fluids changed, and things greased
+* Reconditioned fuel tanks
+* Rebuilt fuel pump
+* Rebuilt Carb
+* Valve clearances, timing, etc.
+* Repaired Radiobox battery compartment
+** cut out and welded new door
+* Wheels powdercoated
+** For new tires
+* Installed soft top
+* Repaired electrical wiring
+** Now tail lights and blinkers work correctly
+* civilian ignition conversion
+
+== Data
+
+. Personally confirmed data
+* Engine
+** M180.?
+* Brakes
+** Fluid: DOT3+ (yellow)
+* Portal Axles
+** Fluid: gear oil, 80sae, .3L each
+* Transmission
+** Fluid: gear oil, 90sae, 6L
+*** GL4 required, as others may eat brass (which is used for bearings/etc.)
+*** e.g. Redline MT-90
+* Air System
+** Compressor Fluid: engine oil 10sae
+*** A 0W-40 or 10W-40 works
+** Anti-freeze unit Fluid: Ethyl/denatured alcohol
+* Carburetor
+** Model: Zenith 32 NDIX
+*** Carb top screws: M5x0.9 and 18mm
+**** These are non standard pitch, so if you snap them you likely must make your own. Ask me how I know.
+
+* Oil plug is M26x1.5
+
+== Resources
+
+* link:/assets/files/mb-unimog-404-maintenance-man.pdf[Unimog 404 Workshop Manual]
+** buying one is better, but anything is better than none
+* link:/assets/files/Solex_Selection_And_Tuning_Of_The_Carburetor_1966.pdf[Solex Carburetor (Zenith 32 applicable) Tuning Guide]
+* link:/assets/files/mog-404-electrical-annotated-sans-trailer.jpg[Annotated image of 404 wiring]
+** with trailer wiring greyed out
+
+== Radio
+
+=== Telescoping Mast
+
+* A 6 KLP/F AKAC019 made by Geroh GmbH, Germany
+* Extends 6m long or 20ft
+* I believe designed to hold https://web.archive.org/web/20250807023137/https://www.kleinanzeigen.de/s-anzeige/bundeswehr-geroh-kurbelmast-funkspitze-antenne-funk-sem-25-koffer/2729940234-234-5749[a "radio mast spike"] as part of the SEM 25 unit
+** you could easily do an inverted-v dipole and get 1/2 wave length for 12 Meters or 1/4 wave on 20 Meters
+** Rated for a max head-load of 15kg
+* Some links:
+** https://web.archive.org/web/20250312181423/https://www.nonstopsystems.com/radio/frank_radio_antenna_mast.htm[Frank talks about using it on a roof]
+** https://web.archive.org/web/20200922220443/https://www.allrad-lkw-gemeinschaft.de/phpBB3/viewtopic.php?t=19558[A german forum post]
+** https://web.archive.org/web/20210518113805/http://www.panzerbaer.de/helper/bw_lkw_02t_gl_sprFuTrp_a-a.htm[The mast mounted to a newer unimog]
+
+=== SEM 25
+
+The original system was likely https://de.wikipedia.org/wiki/SEM_25[SEM 25], which operated 24v from about 26 to 70 MHz.
+
+* https://www.nf6x.net/1999/06/the-german-sem-25-transceiver/
