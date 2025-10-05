@@ -12,8 +12,9 @@ jobs:
               run: |
                   docker run \
                   -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-                  jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future && chmod -R 775 /srv/jekyll/_site/"
-
+                  jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future \
+                  && chmod -R 775 /srv/jekyll/_site/ \
+                  && ls -alh /srv/jekyll/_site/"
             - name: Deploy
               uses: appleboy/scp-action@master
               with:
@@ -24,5 +25,6 @@ jobs:
                   source: "${{ github.workspace }}/_site/*"
                   target: "/var/www/c0ffee.me"
                   overwrite: true
-                  strip_components: 3
+                  strip_components: 7
+                  capture_stdout: true
 
