@@ -1,0 +1,23 @@
+= Frejoth FI-900AEG Lathe
+:page-layout: wiki
+:page-category: tools
+
+image::/assets/media/lathe.jpg[align="center",float="center",width=50%]
+
+== Data
+
+.Personally confirmed data
+* Manufacturer: Frejoth
+** Also known as: Morton
+* Model: FI-900AEG
+** FI-900 AE-G
+** Looks like FL-900AEG or F1-900AEG
+* Swing: 12"x36"
+* Change gears:
+** 1.5 mod
+** 18mm bore, 5mm key
+** 20° pressure angle
+** 10mm thick
+* Lead screw is metric
+** pretty sure, need to double check
+* Tail stock spindle: MT3

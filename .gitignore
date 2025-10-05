@@ -5,6 +5,7 @@ Gemfile.lock
 .jekyll-cache/*
 .idea
 .DS_Store
+*Zone.Identifier
 
 # Devenv
 .devenv*
