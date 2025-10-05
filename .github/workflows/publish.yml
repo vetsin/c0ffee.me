@@ -25,6 +25,6 @@ jobs:
                   source: "${{ github.workspace }}/_site/*"
                   target: "/var/www/c0ffee.me"
                   overwrite: true
-                  strip_components: 7
+                  strip_components: 6
                   capture_stdout: true
 
